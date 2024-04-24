@@ -1,0 +1,109 @@
+/* 1. Altere a fonte de todo o site, retire a serifa e deixe uma fonte mais moderna */
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+/* 2. Mude a cor do texto inserido na tag <pre> */
+pre {
+    color: blue;
+}
+
+/* 3. Mude a cor de fundo de todo o site */
+body {
+    background-color: #f0f0f0;
+}
+
+/* 4. Determine uma cor padrão e tamanho para as tags Hs ( h1, h2, h3,h4,h5) */
+h1,
+h2,
+h3,
+h4,
+h5 {
+    color: red;
+    font-size: 1.5em;
+}
+
+/* 5. Mude a cor da fonte dos golpes que esse cavaleiro dá (tag <strong>) */
+strong {
+    color: green;
+}
+
+/* 6. Estilize a cor da tag <mark> converta a cor para rgb */
+mark {
+    background-color: rgba(255, 255, 0, 0.5);
+}
+
+/* 7. Estilize todos os links para que fique com uma cor diferente do padrão */
+a {
+    color: purple;
+}
+
+/* 8. Remova o sublinhado de todos os links */
+a {
+    text-decoration: none;
+}
+
+/* 9. Mude o estilo da borda da tabela e a cor da mesma */
+table {
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+/* 10. Aumente a largura da tabela, para que tenha como dimensão 30/100 da altura da viewport */
+table {
+    height: 30vh;
+}
+
+/* 11. Na descrição da tabela, coloque uma borda ao redor para destacar o conteúdo */
+th,
+td {
+    border-bottom: 3px solid black;
+}
+
+/* 12. Altere a cor de fundo da parte superior da tabela */
+th {
+    background-color: lightgray;
+}
+
+/* 13. Funda as bordas da tabela */
+table {
+    border-collapse: collapse;
+}
+
+/* 14. Insira linhas na tabela, com 1px de espessura, que seja sólida */
+td,
+th {
+    border: 1px solid black;
+}
+
+/* 15. Na lista de descrição, coloque uma borda ao redor para destacar o conteúdo */
+dl {
+    border: 1px solid black;
+    padding: 10px;
+}
+
+/* 16. Na lista de episódios, mude os números para iniciar em letras maiúsculas */
+ol {
+    list-style-type: upper-alpha;
+}
+
+/* 17. Mude o tipo de bullet da lista não ordenada */
+ul {
+    list-style-type: square;
+}
+
+/* 18. Aplique uma cor nas colunas pares da tabela */
+td:nth-child(even) {
+    background-color: lightblue;
+}
+
+/* 19. Redimensione o iframe para para que tenha como dimensão 30/100 da altura da viewport e 30/100 da largura da viewport */
+iframe {
+    width: 30%;
+    height: 30%;
+}
+
+/* 20. Reduza o tamanho do iframe */
+/* iframe {
+    width: 80%;
+} */
