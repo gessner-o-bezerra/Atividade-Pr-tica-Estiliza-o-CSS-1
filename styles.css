@@ -99,8 +99,8 @@ td:nth-child(even) {
 
 /* 19. Redimensione o iframe para para que tenha como dimensão 30/100 da altura da viewport e 30/100 da largura da viewport */
 iframe {
-    width: 30%;
-    height: 30%;
+    width: 30vw;
+    height: 30vh;
 }
 
 /* 20. Reduza o tamanho do iframe */
